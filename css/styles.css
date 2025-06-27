@@ -292,6 +292,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
+.svg-third{
+width:16px;
+height: 16px;
+
+}
+
 .third-icons{display: flex;
 justify-content: center;
 gap: 24px;
@@ -300,7 +306,9 @@ gap: 24px;
 width: 40px;
 height: 40px;
 }
-
+.social-icon-third:hover{background-color: #404bbf; 
+}
+.social-icon-third:focus{background-color: #404bbf}
 /*---------fourth section ---------*/
 
 
