@@ -105,9 +105,22 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;}
 
-.first{
-  background-color: #2e2f42 ;
-padding: 188px 0}
+.first{position: relative;
+  background-image: url("../images/people-office.jpg");
+   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 188px 0;
+}
+.first::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(46, 47, 66, 0.7);
+  }
+  .first .container {
+  position: relative;
+   }
 
 .first-title{margin: 0 auto;
   margin-bottom: 48px;
@@ -164,7 +177,8 @@ cursor: pointer;
   }
 
 
-.second-title{margin-bottom: 8px;
+.second-title{margin-top: 8px;
+  margin-bottom: 8px;
   font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
