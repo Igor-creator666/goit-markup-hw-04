@@ -305,9 +305,11 @@ fill: #f4f4fd;
 
 }
 
-.third-icons{display: flex;
+.third-icons{
+  display: flex;
   margin: 0; padding-left: 0;
   align-items: center;
+  justify-content: center;
   gap: 24px;
 }
 
