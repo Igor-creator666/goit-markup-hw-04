@@ -226,6 +226,10 @@ cursor: pointer;
     
   }
   .svg-container{
+display: flex;
+  align-items: center;
+  justify-content: center;
+    
     padding: 24px 100px;
  width: 264;
 height: 112px;
@@ -295,6 +299,7 @@ color: #434455;
 .svg-third{
 width:16px;
 height: 16px;
+fill: #f4f4fd;
 
 }
 
@@ -308,7 +313,7 @@ height: 40px;
 }
 .social-icon-third:hover{background-color: #404bbf; 
 }
-.social-icon-third:focus{background-color: #404bbf}
+.social-icon-third:focus{background-color: #404bbf;}
 /*---------fourth section ---------*/
 
 
