@@ -31,7 +31,7 @@ letter-spacing: 0.02em;
 background-color: #FFFFFF;
 }
 
-.header {
+.header {box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
   display: flex;
   border-bottom: 1px solid #e7e9fc;
 }
@@ -70,6 +70,11 @@ color: #2e2f42;
 
 
 }
+
+.first-studio{position: relative;color: #404bbf;
+transition:250ms cubic-bezier(0.4, 0, 0.2, 1);}
+
+
 .nav-link{display: inline-block;
    padding: 24px 0 ;
   display: block;
@@ -82,7 +87,12 @@ color: #2e2f42;
 .nav-link:hover{color: #404bbf;}
 .nav-link:focus{color: #404bbf;}
 
-.address{padding-left: 0;
+.nav-link::after{width: 100%;position: absolute;left: 0;bottom: -1px; height: 4px; background-color: #404bbf;border-radius: 2px;}
+
+
+
+.address{
+  padding-left: 0;
   width: 1158px;
   display: flex;
   margin: 0; 
@@ -93,14 +103,15 @@ color: #2e2f42;
 
 
 
-.mail{font-size: 16px;
+.mail{font-size: 16px;transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
 .mail:hover{color: #404bbf;}
 .mail:focus{color: #404bbf;}
-.phone{font-size: 16px;
+.phone{transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;}
